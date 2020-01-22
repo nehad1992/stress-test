@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Health Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Health Survey</h1>
+        <br>
+        <br>
+        <form id="formOne">
+          <div class="form-group">
+            <h3>
+                Below are some health related questions for you. You can select more than one option in every category.
+            </h3>
+            <br>
+            <br>
+            <p>Signs of being negatively affected by stress. Please, use all checkboxes which could be applied to your case.</p>
+            <input type="checkbox" name="stress" value="a">Loss of sleep. <br>
+            <input type="checkbox" name="stress" value="b">Feeling overwhelmed<br>
+            <input type="checkbox" name="stress" value="c">High blood pressure<br>
+            <input type="checkbox" name="stress" value="d">Anxiety<br>
+            <input type="checkbox" name="stress" value="e">Loss of appetite<br>
+          </div>  
+          <br>
+          <br>
+          <div class="form-group">
+          <p>Which methods to deal with stress are you applying right now?  Please, use all checkboxes which could be applied to your case.</p>
+            <input type="checkbox" name="deal" value="1">Meditate.<br>
+            <input type="checkbox" name="deal" value="2">Manage your time<br>
+            <input type="checkbox" name="deal" value="3">Pet a cat<br>
+            <input type="checkbox" name="deal" value="4">Do exercises<br>
+            <input type="checkbox" name="deal" value="5">Do yoga<br>
+          </div>
+          <button class="btn btn-info">Submit</button>
+        </form>
+
+        <h2 id="negative">Your health in bad condition</h2>
+        <h2 id="positive">You are doing a pretty good job</h2>
+        <h2 id="okay">You need to manage your stress</h2>
+
+      </div>
+    </div>
+  </body>
+</html>
